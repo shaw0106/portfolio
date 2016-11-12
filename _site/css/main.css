@@ -69,7 +69,9 @@ html, body {
 /*--------------------------------------------------------------left and right sides----*/
 
 .all-right {
-  padding-bottom: 420px;
+  width: 100%;
+  padding-bottom: 520px;
+  background-color: purple;
 }
 
 .all-right-in {
@@ -83,94 +85,6 @@ html, body {
   width: 62%;
   float: right;
   padding: 50px 50px 50px 0;
-}
-
-/*--------------------------------------------------------------social media--*/
-
-a {
-  color: #0a2739;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #fff;
-}
-
-.icons {
-  left: 70px;
-  top: 90%;
-  position: absolute;
-  z-index: 6;
-}
-
-.social-icons {
-  list-style-type: none;
-  width: 250px;
-  height: 100px;
-  z-index: 3;
-  margin: auto;
-  padding-top: 15px;
-}
-
-.tab {
-  margin-right: 10px;
-  border-radius: 0 0 25px 25px;
-  float: left;
-}
-
-.circle {
-  padding: 10px 10px;
-  width: 40px;
-  font-size: 40px;
-  text-align: center;
-  border-radius: 25px;
-  border: solid 2px;
-}
-
-.fa-behance {
-  color: #0a2739;
-  border-color: #0a2739;
-}
-
-.fa-behance:hover {
-  background-color: #0a2739;
-}
-
-.fa-instagram {
-  color: #0a2739;
-  border-color: #0a2739;
-}
-
-.fa-instagram:hover {
-  background-color: #0a2739;
-}
-
-.fa-vimeo {
-  color: #0a2739;
-  border-color: #0a2739;
-}
-
-.fa-vimeo:hover {
-  background-color: #0a2739;
-}
-
-.fa-linkedin {
-  color: #0a2739;
-  border-color: #0a2739;
-}
-
-.fa-linkedin:hover {
-  background-color: #0a2739;
-}
-
-.fa-behance:hover, .fa-instagram:hover, .fa-vimeo:hover, .fa-linkedin:hover {
-  color: hsl(0, 0%, 100%);
-}
-
-.screen-reader {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
 }
 
 /*--------------------------------------------------------------image grid----*/
@@ -306,12 +220,107 @@ footer {
      margin-top: 10px;
 }
 
+/*----------------------------------------------------------------------------------------footer--*/
+
+
+/*--------------------------------------------------------------social media--*/
+
+a {
+  color: #0a2739;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.icons {
+  left: 70px;
+  top: 90%;
+  position: absolute;
+  z-index: 6;
+}
+
+.social-icons {
+  list-style-type: none;
+  width: 250px;
+  height: 100px;
+  z-index: 3;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+
+.circle {
+  padding: 10px 10px;
+  width: 40px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 25px;
+  border: solid 2px;
+}
+
+.fa-behance {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-behance:hover {
+  background-color: #0a2739;
+}
+
+.fa-instagram {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-instagram:hover {
+  background-color: #0a2739;
+}
+
+.fa-vimeo {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-vimeo:hover {
+  background-color: #0a2739;
+}
+
+.fa-linkedin {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-linkedin:hover {
+  background-color: #0a2739;
+}
+
+.fa-behance:hover, .fa-instagram:hover, .fa-vimeo:hover, .fa-linkedin:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
 /*--------------------------------------------------------------break points----*/
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {
 
 .onfoot {
   display: none;
+}
+
+.grid--item {
+  width: calc(50% - 20px);
 }
 
 }
