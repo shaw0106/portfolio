@@ -71,20 +71,12 @@ html, body {
 .all-right {
   width: 100%;
   padding-bottom: 520px;
-  background-color: purple;
-}
-
-.all-right-in {
-  width: 100%;
-  float: right;
-  padding-top: 40px;
-  padding-bottom: 100px;
 }
 
 .img-lg {
-  width: 62%;
+  width: 90%;
   float: right;
-  padding: 50px 50px 50px 0;
+  padding: 50px 0 200px 0;
 }
 
 /*--------------------------------------------------------------image grid----*/
