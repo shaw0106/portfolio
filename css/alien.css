@@ -1,0 +1,445 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding:0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------------------------talking stuff----*/
+
+.logo {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 5%;
+  min-width: 75px;
+  z-index: 3;
+}
+
+.name {
+  font-family: 'Bitter', serif;
+  position: absolute;
+  top: 160px;
+  left: 70px;
+  width: 100%;
+  color: turquoise;
+  font-size: 3em;
+  z-index: 3;
+}
+
+.bar {
+  position: absolute;
+  width: 40px;
+  top: 280px;
+  left: 70px;
+  z-index: 3;
+}
+
+.soon {
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  top: 290px;
+  left: 70px;
+  width: 30%;
+  line-height: 2em;
+  font-size: 1em;
+  color: #0a2739;
+}
+
+.link {
+  color: #0a2739;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: turquoise;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 2em;
+}
+/*---------------------------------------------------social media and footer--*/
+
+.button1 {
+    background-color: turquoise;
+    color: #0a2739;
+    border: 2px solid #0a2739;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    font-family: 'Bitter', serif;
+}
+
+.button1:hover {
+    background-color: #0a2739;
+    color: white;
+    border: 2px solid #0a2739;
+}
+
+.onfoot {
+  bottom: 10px;
+  left: 70px;
+  z-index: 4;
+  position: fixed;
+}
+
+/*-----------------------*/
+
+a {
+  color: #0a2739;
+  text-decoration: none;
+}
+
+a:hover {
+  color: turquoise;
+}
+
+.icons {
+  left: 70px;
+  top: 90%;
+  position: absolute;
+  z-index: 6;
+}
+
+.social-icons {
+  list-style-type: none;
+  width: 250px;
+  height: 100px;
+  z-index: 3;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+
+.circle {
+  padding: 10px 10px;
+  width: 40px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 25px;
+  border: solid 2px;
+}
+
+.fa-behance {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-behance:hover {
+  background-color: #0a2739;
+}
+
+.fa-instagram {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-instagram:hover {
+  background-color: #0a2739;
+}
+
+.fa-vimeo {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-vimeo:hover {
+  background-color: #0a2739;
+}
+
+.fa-linkedin {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-linkedin:hover {
+  background-color: #0a2739;
+}
+
+.fa-behance:hover, .fa-instagram:hover, .fa-vimeo:hover, .fa-linkedin:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+/*--------------------------------------------------------------image grid----*/
+
+.all-right {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.img-lg {
+  width: 100%;
+  padding: 70px 70px 70px 900px;
+}
+/*--------------------------------------------------------------lightbox----*/
+
+.button1 {
+    background-color: turquoise;
+    color: #0a2739;
+    border: 2px solid #0a2739;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    font-family: 'Bitter', serif;
+}
+
+.button1:hover {
+    background-color: #0a2739;
+    color: white;
+    border: 2px solid #0a2739;
+}
+
+.onfoot {
+  position: fixed;
+  left: 70px;
+  z-index: 4;
+}
+
+/*--------------------------------------------------------------break points----*/
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+.logo {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.name {
+  font-size: 2em;
+  width: 100%;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+.bar {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.soon {
+  width: 90%;
+  position: relative;
+  left: 20px;
+  padding: 0;
+  margin: 0;
+  top: 50px;
+}
+
+body {
+  background-color: white;
+}
+
+footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 60px;
+   width: 100%;
+   background: turquoise;
+}
+
+.all-left {
+  clear: both;
+}
+
+.all-right {
+  width: 100%;
+  position: relative;
+}
+    }
+
+    @media only screen and (min-width: 427px) and (max-width: 700px) {
+    .logo {
+      position: relative;
+      left: 20px;
+      top: 20px;
+    }
+
+    .name {
+      font-size: 2em;
+      width: 100%;
+      position: relative;
+      left: 20px;
+      top: 30px;
+    }
+
+    .bar {
+      position: relative;
+      left: 20px;
+      top: 10px;
+    }
+
+    .soon {
+      width: 80%;
+      position: relative;
+      left: 20px;
+      padding: 0;
+      margin: 0;
+      top: 50px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    footer {
+       position: fixed;
+       left: 0px;
+       bottom: 0px;
+       height: 70px;
+       width: 100%;
+       background: turquoise;
+       padding: 2% 30% 10% 30%;
+    }
+
+    .all-right {
+      width: 100%;
+      position: relative;;
+      padding: 25% 5% 0 5%;
+    }
+
+    .img-lg {
+      padding: 5px 15px 65px 15px;
+    }
+
+    .button1 {
+        background-color: turquoise;
+        color: #0a2739;
+        border: 2px solid #0a2739;
+        border-radius: 2px;
+        padding: 10px 15px;
+        font-size: .5em;
+        letter-spacing: 1.5px;
+        font-family: 'Bitter', serif;
+        margin-top: 11px;
+    }
+
+    .button1:hover {
+        background-color: turquoise;
+        color: white;
+        border: 2px solid white;
+    }
+    .onfoot {
+      position: fixed;
+      z-index: 4;
+    }
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  footer {
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     background: turquoise;
+     height: 70px;
+  }
+
+  .soon {
+    width: 50%;
+  }
+
+  .all-right {
+    width: 100%;
+    position: absolute;
+    float: left;
+    top: 430px;
+    left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+  footer {
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     background: turquoise;
+     height: 70px;
+  }
+
+  .soon {
+    width: 25%;
+  }
+
+.all-left {
+  float: left;
+}
+
+  .all-right {
+    width: 70%;
+    float: right;
+    top: 430px;
+    left: 10px;
+  }
+}
+
+
+@media only screen and (min-width: 2000px) and (max-width: 4000px) {
+  footer {
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     background: turquoise;
+     height: 70px;
+  }
+
+.name {
+  top: 20%;
+}
+
+.bar {
+  top: 30%;
+}
+  .soon {
+    top: 32%;
+    width: 30%;
+  }
+
+.all-left {
+  float: left;
+}
+
+  .all-right {
+    width: 70%;
+    float: right;
+    top: 430px;
+    left: 10px;
+  }
+}
