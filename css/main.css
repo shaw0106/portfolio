@@ -89,6 +89,8 @@ html, body {
 .all-right {
   width: 62%;
   float: right;
+  padding-top: 40px;
+  padding-bottom: 400px;
 }
 
 .img-lg {
