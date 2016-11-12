@@ -19,7 +19,7 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
-  padding:0;
+  padding: 0 50px;
 }
 
 html, body {
@@ -29,42 +29,29 @@ html, body {
 /*--------------------------------------------------------------content logo, title, bar and paragraph----*/
 
 .logo {
-  position: absolute;
-  top: 50px;
-  left: 70px;
-  width: 5%;
-  min-width: 75px;
-  z-index: 3;
+  margin: 50px 10px 20px 0;
+  width: 6%;
+  min-width: 80px;
 }
 
 .name {
   font-family: 'Bitter', serif;
-  position: absolute;
-  top: 160px;
-  left: 70px;
-  width: 100%;
+  margin: 10px 10px 10px 0;
   color: turquoise;
   font-size: 3em;
-  z-index: 3;
 }
 
 .bar {
-  position: absolute;
+  margin: 10px 10px 20px 0;
   width: 40px;
-  top: 280px;
-  left: 70px;
-  z-index: 3;
 }
 
 .soon {
   font-family: 'Quicksand', sans-serif;
-  position: absolute;
-  top: 290px;
-  left: 70px;
-  width: 30%;
   line-height: 2em;
   font-size: 1em;
   color: #0a2739;
+  margin: 10px 10px 20px 0;
 }
 
 .link {
@@ -81,17 +68,7 @@ html, body {
 
 /*--------------------------------------------------------------left and right sides----*/
 
-.all-left {
-  float: left;
-  width: 50%;
-}
 
-.all-right {
-  width: 62%;
-  float: right;
-  padding-top: 40px;
-  padding-bottom: 100px;
-}
 
 .all-right-in {
   width: 100%;
@@ -328,3 +305,7 @@ footer {
 }
 
 /*--------------------------------------------------------------break points----*/
+
+@media only screen and (min-width: 0px) and (max-width: 1100px) {
+
+}
