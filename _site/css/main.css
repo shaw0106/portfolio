@@ -68,7 +68,9 @@ html, body {
 
 /*--------------------------------------------------------------left and right sides----*/
 
-
+.all-right {
+  padding-bottom: 420px;
+}
 
 .all-right-in {
   width: 100%;
@@ -306,6 +308,10 @@ footer {
 
 /*--------------------------------------------------------------break points----*/
 
-@media only screen and (min-width: 0px) and (max-width: 1100px) {
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+
+.onfoot {
+  display: none;
+}
 
 }
