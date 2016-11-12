@@ -26,7 +26,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-/*--------------------------------------------------------------talking stuff----*/
+/*--------------------------------------------------------------content logo, title, bar and paragraph----*/
 
 .logo {
   position: absolute;
@@ -79,22 +79,16 @@ html, body {
   line-height: 2em;
 }
 
+/*--------------------------------------------------------------left and right sides----*/
+
 .all-right {
-  width: 100%;
-  padding-bottom: 20px;
+  width: 60%;
+  padding: 70px 10px 150px 20px;
 }
 
 .img-lg {
   width: 100%;
   padding: 70px 20px 100px 500px;
-}
-
-.vid {
-  display: block;
-  padding: 50px 300px 66px 100px;
-}
-.vid-sm {
-  display: none;
 }
 
 /*--------------------------------------------------------------social media--*/
@@ -187,11 +181,6 @@ a:hover {
 
 /*--------------------------------------------------------------image grid----*/
 
-.all-right {
-  width: 60%;
-  padding: 70px 10px 150px 20px;
-}
-
 .grid--item {
   position: relative;
   margin-top: 10px;
@@ -201,6 +190,7 @@ a:hover {
   transition: all 0.5s;
   overflow: hidden;
 }
+
 .grid--item:before {
   display: block;
   padding-top: 112.5%;
@@ -290,7 +280,7 @@ h2:before, h2:after {
   transform: translate(-50%, -50%) scale(1);
 }
 
-/*--------------------------------------------------------------contatc btn----*/
+/*--------------------------------------------------------------contact btn----*/
 
 .button1 {
     background-color: turquoise;
@@ -301,6 +291,8 @@ h2:before, h2:after {
     font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
+    position: fixed;
+    margin: 13px 10px 10px 70px;
 }
 
 .button1:hover {
@@ -309,240 +301,14 @@ h2:before, h2:after {
     border: 2px solid #0a2739;
 }
 
-.onfoot {
-  bottom: 10px;
-  left: 70px;
-  z-index: 4;
-  position: fixed;
-}
-/*--------------------------------------------------------------break points----*/
-
-@media only screen and (min-width: 0px) and (max-width: 430px) {
-.logo {
-  position: relative;
-  left: 20px;
-  top: 20px;
-}
-
-.name {
-  font-size: 2em;
-  width: 100%;
-  position: relative;
-  left: 20px;
-  top: 30px;
-}
-
-.bar {
-  position: relative;
-  left: 20px;
-  top: 10px;
-}
-
-.soon {
-  width: 90%;
-  position: relative;;
-  left: 20px;
-  padding: 0;
-  margin: 0;
-  top: 30px;
-}
-
-body {
-  background-color: white;
-}
-
 footer {
-   position: fixed;
-   left: 0px;
-   bottom: 0px;
-   height: 60px;
-   width: 100%;
-   background: turquoise;
-}
-
-.all-right {
-  width: 100%;
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.grid--item {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  float: left;
-  transition: all 0.5s;
-  overflow: hidden;
-  padding-bottom: 10px;
-}
-    }
-
-    @media only screen and (min-width: 427px) and (max-width: 700px) {
-    .logo {
-      position: relative;
-      left: 20px;
-      top: 20px;
-    }
-
-    .name {
-      font-size: 2em;
-      width: 100%;
-      position: relative;
-      left: 20px;
-      top: 30px;
-    }
-
-    .bar {
-      position: relative;
-      left: 20px;
-      top: 10px;
-    }
-
-    .soon {
-      width: 80%;
-      position: relative;
-      left: 20px;
-      padding: 0;
-      margin: 0;
-      top: 50px;
-    }
-
-    body {
-      background-color: white;
-    }
-
-    footer {
-       position: fixed;
-       left: 0px;
-       bottom: 0px;
-       height: 70px;
-       width: 100%;
-       background: turquoise;
-       padding: 2% 30% 10% 30%;
-    }
-
-    .all-right {
-      width: 100%;
-      position: relative;;
-      padding: 25% 5% 0 5%;
-      top: 10px;
-    }
-
-    .button1 {
-      left: -50px;
-      margin-top: 13px;
-    }
-
-    .grid--item {
-      position: relative;
-      width: 100%;
-      max-width: 350px;
-      float: left;
-      transition: all 0.5s;
-      overflow: hidden;
-    }
-
-    .vid {
-      display: none;
-    }
-    .vid-sm {
-      display: block;
-      padding: 10px 10px 70px 20px;
-    }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 1000px) {
-  footer {
      position: fixed;
      left: 0px;
      bottom: 0px;
+     height: 60px;
      width: 100%;
      background: turquoise;
-     height: 70px;
-  }
-
-  .soon {
-    width: 50%;
-  }
-
-  .all-right {
-    width: 100%;
-    position: relative;;
-    padding: 70px 10px 20px 20px;
-  }
-
-  .button1 {
-    left: -50px;
-    margin-top: 13px;
-  }
-
-  .vid {
-    display: none;
-  }
-  .vid-sm {
-    display: block;
-    padding: 10px 10px 70px 20px;
-  }
+     margin-top: 10px;
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 2000px) {
-  footer {
-     position: fixed;
-     left: 0px;
-     bottom: 0px;
-     width: 100%;
-     background: turquoise;
-     height: 70px;
-  }
-
-  .soon {
-    width: 25%;
-  }
-
-.all-left {
-  float: left;
-}
-
-  .all-right {
-    width: 70%;
-    float: right;
-    top: 430px;
-    left: 10px;
-  }
-}
-
-
-@media only screen and (min-width: 2000px) and (max-width: 4000px) {
-  footer {
-     position: fixed;
-     left: 0px;
-     bottom: 0px;
-     width: 100%;
-     background: turquoise;
-     height: 70px;
-  }
-
-.name {
-  top: 20%;
-}
-
-.bar {
-  top: 30%;
-}
-  .soon {
-    top: 32%;
-    width: 30%;
-  }
-
-.all-left {
-  float: left;
-}
-
-  .all-right {
-    width: 70%;
-    float: right;
-    top: 430px;
-    left: 10px;
-  }
-}
+/*--------------------------------------------------------------break points----*/
