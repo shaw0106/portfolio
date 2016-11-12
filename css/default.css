@@ -76,6 +76,8 @@ html, body {
 
 .all-right {
   padding-bottom: 720px;
+  width: 100%;
+  min-width: 275px;
 }
 
 /*--------------------------------------------------------------image grid----*/
@@ -225,6 +227,10 @@ a:hover {
   color: #fff;
 }
 
+a:focus {
+  background-color: turquoise;
+}
+
 .icons {
   left: 70px;
   top: 90%;
@@ -304,7 +310,7 @@ a:hover {
 
 /*--------------------------------------------------------------break points----*/
 
-@media only screen and (min-width: 400px) and (max-width: 550px) {
+@media only screen and (min-width: 0px) and (max-width: 550px) {
 
 .onfoot {
   display: none;
@@ -317,7 +323,6 @@ a:hover {
 .email-sm {
   display: inline-block;
 }
-
 }
 
 @media only screen and (min-width: 551px) and (max-width: 1000px) {
@@ -325,5 +330,4 @@ a:hover {
 .grid--item {
   width: calc(50% - 20px);
 }
-
 }
