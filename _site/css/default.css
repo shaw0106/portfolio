@@ -54,6 +54,12 @@ html, body {
   margin: 10px 10px 20px 0;
 }
 
+.email-sm {
+  display: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #0a2739;
+}
+
 .link {
   color: #0a2739;
   text-decoration: underline;
@@ -298,7 +304,7 @@ a:hover {
 
 /*--------------------------------------------------------------break points----*/
 
-@media only screen and (min-width: 0px) and (max-width: 550px) {
+@media only screen and (min-width: 400px) and (max-width: 550px) {
 
 .onfoot {
   display: none;
@@ -306,6 +312,10 @@ a:hover {
 
 .grid--item {
   width: calc(50% - 20px);
+}
+
+.email-sm {
+  display: inline-block;
 }
 
 }
