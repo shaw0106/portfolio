@@ -70,13 +70,13 @@ html, body {
 
 .all-right {
   width: 100%;
-  min-width: 350px;
   margin-bottom: 100px;
+  margin: auto;
 }
 
 .ruby-right {
   width: 100%;
-  min-width: 350px;
+  margin: auto;
 }
 
 .ruby-last {
