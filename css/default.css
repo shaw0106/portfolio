@@ -80,6 +80,16 @@ html, body {
   min-width: 275px;
 }
 
+.ruby-right {
+  padding-bottom: 220px;
+  width: 100%;
+  min-width: 350px;
+}
+
+.img-lg {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------image grid----*/
 
 .grid--item {
