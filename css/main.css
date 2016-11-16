@@ -75,7 +75,13 @@ html, body {
 }
 
 .ruby-right {
-  padding-bottom: 160px;
+  padding-bottom: 80px;
+  width: 100%;
+  min-width: 350px;
+}
+
+.ruby-last {
+  padding-bottom: 500px;
   width: 100%;
   min-width: 350px;
 }
