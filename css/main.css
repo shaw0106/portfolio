@@ -93,6 +93,10 @@ html, body {
   margin-bottom: 60px;
 }
 
+.vid {
+  margin: auto;
+}
+
 /*--------------------------------------------------------------image grid----*/
 
 .grid--item {
