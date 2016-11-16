@@ -75,7 +75,7 @@ html, body {
 }
 
 .ruby-right {
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   width: 100%;
   min-width: 350px;
 }
@@ -88,6 +88,7 @@ html, body {
 
 .img-lg {
   width: 100%;
+  margin-left: 40px;
 }
 
 /*--------------------------------------------------------------image grid----*/
@@ -213,6 +214,8 @@ h2:before, h2:after {
     border: 2px solid #0a2739;
 }
 
+/*----------------------------------------------------------------------------------------footer--*/
+
 footer {
      position: fixed;
      left: 0px;
@@ -222,10 +225,6 @@ footer {
      background: turquoise;
      margin-top: 10px;
 }
-
-/*----------------------------------------------------------------------------------------footer--*/
-
-
 /*--------------------------------------------------------------social media--*/
 
 a {
@@ -324,6 +323,18 @@ a:hover {
 
 .grid--item {
   width: calc(50% - 20px);
+}
+
+.ruby-right {
+  padding-bottom: 50px;
+}
+
+}
+
+@media only screen and (min-width: 551px) and (max-width: 1000px) {
+
+.ruby-right {
+  padding-bottom: 80px;
 }
 
 }
