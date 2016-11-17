@@ -82,6 +82,7 @@ html, body {
 .ruby-last {
   width: 100%;
   min-width: 350px;
+  margin-bottom: 400px;
 }
 
 .img-lg {
