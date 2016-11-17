@@ -19,7 +19,7 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
-  padding: 0 50px;
+  padding: 0 50px 100px 50px;
 }
 
 html, body {
@@ -75,9 +75,9 @@ html, body {
 /*--------------------------------------------------------------right sides----*/
 
 .all-right {
-  padding-bottom: 720px;
   width: 100%;
   min-width: 275px;
+  margin-bottom: 1000px;
 }
 
 .ruby-right {
@@ -148,8 +148,8 @@ html, body {
   width: 100%;
   opacity: 0;
   text-align: center;
-  background-color: rgba(250, 181, 104, 0.9);
-  color: #0a2739;
+  background-color: rgba(51, 224, 206, 0.9);
+  color: white;
   will-change: transform;
   backface-visibility: hidden;
   transform: translate(-50%, -50%) scale(0.9);
