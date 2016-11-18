@@ -88,14 +88,20 @@ html, body {
 .img-lg {
   width: 100%;
   margin-left: 40px;
+  min-width: 200px;
 }
 
 .section {
   margin-bottom: 70px;
 }
 
+.all {
+  min-width: 200px;
+}
+
 .vid-sm {
   display: none;
+  min-width: 200px;
 }
 
 
