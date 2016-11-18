@@ -134,6 +134,7 @@ html, body {
   overflow: hidden;
   -webkit-clip-path: inset(0 0 0 0 round 1%);
   clip-path: inset(0 0 0 0 round 1%);
+  min-width: 200px;
 }
 
 .inside-img {
