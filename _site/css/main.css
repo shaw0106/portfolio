@@ -72,6 +72,7 @@ html, body {
   width: 100%;
   margin-bottom: 100px;
   margin: auto;
+  min-width: 300px;
 }
 
 .ruby-right {
@@ -88,14 +89,20 @@ html, body {
 .img-lg {
   width: 100%;
   margin-left: 40px;
+  min-width: 200px;
 }
 
 .section {
   margin-bottom: 70px;
 }
 
+.all {
+  min-width: 200px;
+}
+
 .vid-sm {
   display: none;
+  min-width: 200px;
 }
 
 
@@ -128,6 +135,7 @@ html, body {
   overflow: hidden;
   -webkit-clip-path: inset(0 0 0 0 round 1%);
   clip-path: inset(0 0 0 0 round 1%);
+  min-width: 200px;
 }
 
 .inside-img {
@@ -221,6 +229,24 @@ h2:before, h2:after {
     border: 2px solid #0a2739;
 }
 
+.button2 {
+    background-color: turquoise;
+    color: #0a2739;
+    border: 2px solid #0a2739;
+    border-radius: 2px;
+    padding: 10px 200px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    font-family: 'Bitter', serif;
+    position: fixed;
+    margin: 13px 10px 10px 70px;
+}
+
+.button2:hover {
+    background-color: #0a2739;
+    color: white;
+    border: 2px solid #0a2739;
+}
 /*----------------------------------------------------------------------------------------footer--*/
 
 footer {
