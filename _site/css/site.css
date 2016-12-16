@@ -31,7 +31,7 @@ html, body {
 .logo {
   margin: 50px 10px 20px 0;
   width: 6%;
-  min-width: 80px;
+  min-width: 230px;
 }
 
 .name {
@@ -72,6 +72,10 @@ html, body {
   text-decoration: none;
 }
 
+.all-left {
+  margin: 0;
+  padding: 0;
+}
 /*--------------------------------------------------------------right sides----*/
 
 .all-right {
@@ -324,6 +328,11 @@ a:focus {
 .email-sm {
   display: inline-block;
 }
+
+body {
+  padding: 0 20px 50px 20px;
+}
+
 }
 
 @media only screen and (min-width: 551px) and (max-width: 1000px) {

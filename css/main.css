@@ -31,7 +31,7 @@ html, body {
 .logo {
   margin: 50px 10px 20px 0;
   width: 6%;
-  min-width: 80px;
+  min-width: 230px;
 }
 
 .name {
@@ -89,9 +89,7 @@ html, body {
 
 .img-lg {
   width: 100%;
-  margin-left: 100px;
-  min-width: 200px;
-  max-width: 700px;
+  margin: auto;
 }
 
 .section {
@@ -107,7 +105,10 @@ html, body {
   min-width: 200px;
 }
 
-
+.stand {
+  border-bottom: 2px solid #0a2739;
+  border-width: thin;
+}
 /*--------------------------------------------------------------image grid----*/
 
 .grid--item {
@@ -352,6 +353,10 @@ a:hover {
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {
 
+body {
+  padding: 0 20px 50px 20px;
+}
+
 .onfoot {
   display: none;
 }
@@ -379,6 +384,7 @@ a:hover {
 .img-lg {
   width: 100%;
   margin: auto;
+  overflow: hidden;
 }
 
 }
@@ -395,6 +401,10 @@ a:hover {
 
 .vid {
   display: none;
+}
+
+.stand {
+  border: none;
 }
 
 .top {
