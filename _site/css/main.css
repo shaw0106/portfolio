@@ -106,10 +106,7 @@ html, body {
   min-width: 200px;
 }
 
-.stand {
-  border-bottom: 2px solid #0a2739;
-  border-width: thin;
-}
+
 /*--------------------------------------------------------------image grid----*/
 
 .grid--item {
