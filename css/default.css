@@ -341,3 +341,25 @@ body {
   width: calc(50% - 20px);
 }
 }
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+
+.name {
+  font-size: 3.5em;
+}
+
+.soon {
+  font-size: 1.25em;
+}
+
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 5000px) {
+.name {
+  font-size: 3.65em;
+}
+
+.soon {
+  font-size: 1.5em;
+}
+
+}
