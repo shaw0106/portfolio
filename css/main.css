@@ -91,6 +91,7 @@ html, body {
 .img-lg {
   width: 100%;
   margin: auto;
+  min-width: 200px;
 }
 
 .section {
