@@ -94,6 +94,13 @@ html, body {
   min-width: 200px;
 }
 
+.img-all {
+  width: 100%;
+  margin: auto;
+  min-width: 300px;
+
+}
+
 .section {
   margin-bottom: 70px;
 }
