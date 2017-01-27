@@ -26,6 +26,10 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.motion {
+  margin-bottom: 100px;
+}
 /*--------------------------------------------------------------content logo, title, bar and paragraph----*/
 
 .logo {
