@@ -27,9 +27,6 @@ html, body {
     overflow-x: hidden;
 }
 
-.motion {
-  padding-left: 20px;
-}
 /*--------------------------------------------------------------content logo, title, bar and paragraph----*/
 
 .logo {
@@ -112,6 +109,9 @@ html, body {
   min-width: 200px;
 }
 
+video {
+  padding:0 0 100px 100px;
+}
 
 /*--------------------------------------------------------------image grid----*/
 
