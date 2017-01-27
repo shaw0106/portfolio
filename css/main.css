@@ -67,6 +67,10 @@ html, body {
   text-decoration: none;
 }
 
+.motion {
+  padding-bottom: 60px;
+}
+
 /*--------------------------------------------------------------left and right sides----*/
 
 .all-right {
