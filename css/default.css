@@ -215,7 +215,8 @@ footer {
      bottom: 0px;
      height: 60px;
      width: 100%;
-     background: turquoise;
+     background: white;
+     border-top: 2px solid #0a2739;
      margin-top: 10px;
 }
 
