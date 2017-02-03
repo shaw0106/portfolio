@@ -115,10 +115,6 @@ video {
 
 /*--------------------------------------------------------------image grid----*/
 
-.motion {
-  margin-left: 20px;
-}
-
 .grid--item {
   position: relative;
   margin-top: 10px;
