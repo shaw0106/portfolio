@@ -191,7 +191,7 @@ h2:before, h2:after {
 /*--------------------------------------------------------------contact btn----*/
 
 .button1 {
-    background-color: white;
+    background-color: turquoise;
     color: #0a2739;
     border: 2px solid #0a2739;
     border-radius: 2px;
@@ -215,8 +215,7 @@ footer {
      bottom: 0px;
      height: 60px;
      width: 100%;
-     background: white;
-     border-top: 2px solid #0a2739;
+     background: turquoise;
      margin-top: 10px;
 }
 
